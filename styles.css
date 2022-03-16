@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+/* TABLE OF CONTENT */
+/* ==||    1. GENERAL STYLES    ||== */
+/* ==||    2. TYPOGRAPHY        ||== */
+/* ==||    3. CONTENT           ||== */
+/* ==||    4. MEDIA QUERIES     ||== */
+
+/* ==========||        1. GENERAL STYLES        ||========== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --light-grey: #bdbdbd;
+}
+
+body {
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ==========||        2. TYPOGRAPHY            ||========== */
+
+h1,
+span {
+  font-family: 'PT Serif', serif;
+}
+
+h2,
+h3,
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3,
+p {
+  font-size: 1.4rem;
+}
+
+h2,
+span {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  width: 80vw;
+}
+
+span {
+  writing-mode: vertical-rl;
+}
+
+.footer-text,
+a {
+  color: var(--light-grey);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 auto 2.4rem auto;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+/* ==========||        3. CONTENT               ||========== */
+
+header {
+  margin-top: 7.1rem;
+}
+
+header h1 {
+  margin-bottom: 3.8rem;
+}
+
+header h2 {
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 8rem 0;
+}
+
+.card {
+  margin: 0 auto;
+  display: flex;
+  flex: 1 1 45%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.down {
+  margin-top: 6rem;
+}
+
+/* ==========||        4. MEDIA QUERIES         ||========== */
+@media (min-width: 768px) {
+  body {
+    width: 70vw;
+  }
+
+  header {
+    display: flex;
+    margin-top: 11rem;
+  }
+  .title {
+    width: 50%;
+  }
+  .text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-container {
+    gap: 7%;
+  }
+
+  p,
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    width: 35ch;
+  }
+
+  span {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    flex: 1 1 28%;
+  }
+
+  .down2 {
+    margin-top: 12rem;
+  }
+}
