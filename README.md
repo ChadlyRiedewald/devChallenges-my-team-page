@@ -36,9 +36,6 @@
 
 ## Overview
 
-![screenshot](https://chadlyriedewald.github.io/devChallenges-my-team-page/assets/Desktop.png)
-![screenshot](https://chadlyriedewald.github.io/devChallenges-my-team-page/assets/mobile.png)
-
 I started with a mobile first approach. Had some challenges with flexbox but fortunately i figured it out.
 
 ### Built With
